@@ -1,0 +1,35 @@
+.ProductDiv {
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.ProductCard {
+  width: 700px;
+  height: 500px;
+  margin: 0 auto;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.ProductImg {
+  height: 300px;
+  object-fit: cover;
+}
+
+.ProductTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.ProductDescription {
+  font-size: 1rem;
+  text-align: justify;
+}
+
+.NoData {
+  text-align: center;
+  margin-top: 50px;
+}

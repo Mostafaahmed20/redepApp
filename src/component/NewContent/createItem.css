@@ -1,0 +1,49 @@
+.sales-sheet-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sales-sheet-container h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.sales-sheet-container table {
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.sales-sheet-container th,
+.sales-sheet-container td {
+  padding: 12px;
+  text-align: left;
+}
+
+.sales-sheet-container th {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.sales-sheet-container tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.sales-sheet-container tr:hover {
+  background-color: #ddd;
+}
+
+.sales-sheet-container form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  max-width: 600px;
+  margin: 20px 0;
+}
+
+.sales-sheet-container form > * {
+  flex: 1 1 100%;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}

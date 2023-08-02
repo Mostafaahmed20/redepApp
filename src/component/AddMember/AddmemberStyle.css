@@ -1,0 +1,44 @@
+.CreateCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  max-width: 500px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+input[type="text"],
+button[type="submit"] {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 18px;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #0069d9;
+}
