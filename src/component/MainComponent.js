@@ -9,7 +9,7 @@ const Fotter = () => {
       <h3>
         Created By<bold style={{ color: "red" }}>🎉🎉</bold>{" "}
       </h3>
-      <h4> Mostafa Ahmed {new Date().getFullYear()}</h4>
+      <h4> Mostafa {new Date().getFullYear()}</h4>
     </div>
   );
 };
